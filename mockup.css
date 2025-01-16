@@ -1,3 +1,30 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding-left: 50px;
+    font-family: "helvetica", Courier, monospace;
+}
+
 .logo {
     display: inline;
+}
+
+#mi {
+    color: red; margin-right: 0;
+}
+
+#salud {
+    color: yellowgreen; margin-left: 0; padding-left: 0px;
+}
+
+h1 {
+    font-family: "tahoma", Courier, monospace; padding-top: 5px;
+}
+
+#section2 {
+    background-color: lightgray; 
+    position: absolute; 
+    height: 350px; 
+    width: 100%; 
+    top: 60px; 
+    bottom: 0; 
+    left: 0;
 }
