@@ -27,7 +27,7 @@ a {
     font-family: "tahoma", Courier, monospace;
     float: right;
     padding-top: 10px;
-    padding-inline: 30px;
+    padding-inline: 20px;
 }
 
 #menu {
@@ -50,10 +50,24 @@ h1 {
 
 #section2 {
     background-color: lightgray; 
+    display: flex;
     position: absolute; 
     height: 350px; 
     width: 100%; 
     top: 60px; 
     bottom: 0; 
     left: 0;
+}
+
+#image-box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+div #section2 #image-box #shrimp-image {
+    position:absolute;
+    right: 20px;
+    height: 200px;
 }
