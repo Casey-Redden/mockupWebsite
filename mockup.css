@@ -19,6 +19,10 @@ h1 {
     font-family: "tahoma", Courier, monospace; padding-top: 5px;
 }
 
+.arrow {
+    font-size: 20px;
+}
+
 #section2 {
     background-color: lightgray; 
     position: absolute; 
