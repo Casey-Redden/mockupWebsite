@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p {
-    padding-left: 70px;
+    padding-left: 150px;
     font-family: "helvetica", Courier, monospace;
 }
 
@@ -33,10 +33,10 @@ a {
 #menu {
     position: absolute;
     top: 10px;
-    right: 70px;
+    right: 150px;
 }
 
-#section2 h5 #bm {
+#section2 h4 #bm {
     color:black;
 }
 
@@ -68,6 +68,24 @@ h1 {
 
 div #section2 #image-box #shrimp-image {
     position:absolute;
-    right: 20px;
-    height: 200px;
+    right: 150px;
+    object-fit: cover;
+    height: 300px;
+    width: 225px;
+}
+
+div #section2 #image-box #pasta-image {
+    position: absolute;
+    right: 400px;
+    object-fit: cover;
+    height: 300px;
+    width: 225px;
+}
+
+div #section2 #image-box #quinoa-image {
+    position: absolute;
+    right: 650px;
+    object-fit: cover;
+    height: 300px;
+    width: 225px;
 }
