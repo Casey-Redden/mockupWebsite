@@ -1,5 +1,4 @@
 h1, h2, h3, h4, h5, h6, p {
-    padding-left: 150px;
     font-family: "helvetica", Courier, monospace;
 }
 
@@ -48,25 +47,28 @@ h1 {
     font-size: 20px;
 }
 
-#section2 {
-    background-color: lightgray; 
+#section2 { 
     display: flex;
-    position: absolute; 
+    justify-content: space-between;
+    position: relative; 
     height: 350px; 
     width: 100%; 
-    top: 60px; 
+    top: 0px; 
     bottom: 0; 
     left: 0;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #image-box {
+    background-color: red;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 
 }
 
-div #section2 #image-box #shrimp-image {
+#shrimp-image {
     position:absolute;
     right: 150px;
     object-fit: cover;
@@ -74,7 +76,7 @@ div #section2 #image-box #shrimp-image {
     width: 225px;
 }
 
-div #section2 #image-box #pasta-image {
+#pasta-image {
     position: absolute;
     right: 400px;
     object-fit: cover;
@@ -82,10 +84,37 @@ div #section2 #image-box #pasta-image {
     width: 225px;
 }
 
-div #section2 #image-box #quinoa-image {
+#quinoa-image {
     position: absolute;
     right: 650px;
     object-fit: cover;
     height: 300px;
     width: 225px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container .img-text {
+    position: absolute;
+    background-color: blue;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+#section2-wrapper {
+    background-color: lightgray;
+    height: 350px; 
+    width: 100%; 
+    position: absolute;
+    top: 60px; 
+    bottom: 0; 
+    left: 0;
+}
+
+html, body {
+    margin: 0;
 }
