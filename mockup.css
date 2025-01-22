@@ -1,118 +1,91 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     font-family: "helvetica", Courier, monospace;
 }
+
+.logo {
+    color: yellowgreen;
+}
+
+.red {
+    color: red;
+}
+
 
 a {
     text-decoration: none;
 }
 
-.logo {
-    position: relative;
-    display: inline;
-    top: 10px;
-}
-
-#mi {
-    color: red; margin-right: 0;
-}
-
-#salud {
-    color: yellowgreen; margin-left: 0; padding-left: 0px;
-}
-
 .menu-item {
+    margin-left: 20px;
     text-decoration: none;
-    color: #333;
-    font-family: "tahoma", Courier, monospace;
-    float: right;
-    padding-top: 10px;
-    padding-inline: 20px;
+    color: black;
 }
 
-#menu {
-    position: absolute;
-    top: 10px;
-    right: 150px;
-}
-
-#section2 h4 #bm {
+#bm {
     color:black;
 }
 
-h1 {
-    font-family: "tahoma", Courier, monospace; padding-top: 5px;
-}
-
 .arrow {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #section2 { 
     display: flex;
     justify-content: space-between;
-    position: relative; 
-    height: 350px; 
-    width: 100%; 
-    top: 0px; 
-    bottom: 0; 
-    left: 0;
-    margin-left: 60px;
-    margin-right: 60px;
+    height: auto;
 }
 
 #image-box {
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-#shrimp-image {
-    position:absolute;
-    right: 150px;
+.image {
     object-fit: cover;
     height: 300px;
     width: 225px;
-}
-
-#pasta-image {
-    position: absolute;
-    right: 400px;
-    object-fit: cover;
-    height: 300px;
-    width: 225px;
-}
-
-#quinoa-image {
-    position: absolute;
-    right: 650px;
-    object-fit: cover;
-    height: 300px;
-    width: 225px;
+    margin-left: 20px;
 }
 
 .image-container {
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-.image-container .img-text {
+.img-text {
     position: absolute;
-    background-color: blue;
-    bottom: 20px;
-    right: 20px;
     text-align: right;
+}
+
+.word2 {
+    background-color: white;
+    padding: 10px;
+}
+
+.word1 {
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-left: -30px;
 }
 
 #section2-wrapper {
     background-color: lightgray;
-    height: 350px; 
-    width: 100%; 
-    position: absolute;
-    top: 60px; 
-    bottom: 0; 
-    left: 0;
+    height: auto;
+    padding: 60px;
 }
 
 html, body {
