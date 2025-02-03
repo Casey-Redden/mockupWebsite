@@ -1,0 +1,59 @@
+commit 932fffa3088a2c4efe28d5aa93cdca7523bc2945
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Sun Feb 2 22:53:09 2025 -0700
+
+    finished project
+
+commit 9d8f45cdbd7b3cb19d50287a1aca03ef55978148
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Wed Jan 22 10:17:16 2025 -0700
+
+    I fixed the layout of my whole website with some help from my classmates.
+
+commit d3153e734ea8a8e0fc99e1f0fd89c259d91168ba
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Tue Jan 21 22:25:53 2025 -0700
+
+    I restructured the website in an attempt to make it better... but I have more work to do now.
+
+commit f9ce9ae2d17cff6fba6080bec1f034bc0208ca31
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Tue Jan 21 15:11:14 2025 -0700
+
+    added the correct images and sized them properly.
+
+commit 697dd3430ebc102974bfb0735924e7391f2549cd
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Fri Jan 17 15:58:56 2025 -0700
+
+    tinkered around with the positioning of the images
+
+commit a25a1592a61f031a21a4ea01996a7eb43d518cb0
+Author: Casey_Redden <kctredden@gmail.com>
+Date:   Thu Jan 16 23:48:50 2025 -0700
+
+    I added the menu items (with links) and modified the browse menu button to have a link aswell
+
+commit 8149c5dcea4a660f96e9702a4ab4a2ac99e23561
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Thu Jan 16 21:03:10 2025 -0700
+
+    Saving minor changes so I can push and work from my desktop
+
+commit c626d631aa8a4cf9fe2f72c703d0e9a130713260
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Wed Jan 15 20:22:16 2025 -0700
+
+    I added some more text and stylized/organized more.
+
+commit dc26ae4374ca2ac1a1e9b1ef5be2745b907e25d5
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Wed Jan 15 08:37:16 2025 -0700
+
+    I added most of my text and started positioning it how I want.
+
+commit f3043c25acfba206f384b0b37b73f2413c4ddffc
+Author: Casey redden <caseyredden@Caseys-MacBook-Air.local>
+Date:   Mon Jan 13 10:07:55 2025 -0700
+
+    linking to github repo
